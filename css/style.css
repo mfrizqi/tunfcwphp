@@ -1,0 +1,742 @@
+#TujuanImg{
+  background-image: url("../assets/tujuan.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#SejarahImg{
+  background-image: url("../assets/sejarah.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#MaskotImg{
+  background-image: url("../assets/tujuan.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sup1{
+  background-image: url("../assets/khalid-p.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sup2{
+  background-image: url("../assets/said-p.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#PialaImg{
+  background-image: url("../assets/tujuan.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#HallImg{
+  background-image: url("../assets/hof.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Mobile Version */
+
+/* Header */
+.header {
+  margin: 10em 0 0 0;
+}
+
+.title {
+  font-size: 3.5em;
+}
+
+.subtitle {
+  font-size: 1.3em;
+  width: 95%;
+}
+
+.header .caption {
+  margin: 7em 0 0 0;
+  font-size: 1em;
+  width: 90%;
+}
+
+.caption .caption-sib{
+  font-size: 0.9em;
+  line-height: 150%;
+}
+
+/* Content */
+.content-v {
+  margin: 20em 0 0 0;
+}
+
+.content-h {
+  margin: 10em 0 0 0;
+}
+
+.r90 {
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+}
+
+/* Tujuan Content */
+
+.tujuan .caption {
+  margin-top: 15em;
+  width: 90%;
+}
+
+.tujuan .space {
+  margin: 9vh;
+}
+
+.tujuan div:nth-child(4){
+    margin-top: 5em;
+}
+
+#TujuanImg {
+  position: absolute;
+  top: -9em;
+  right: 1em;
+  width: 220px;
+  height: 320px;
+  /* background-color: #ececec; */
+}
+
+/* Sejarah Content */
+
+.sejarah .caption {
+  margin: 15em 0 0 0;
+  width: 95%;
+}
+
+.sejarah .caption-sib {
+  margin: 5em 0 0 0;
+  width: 95%;
+}
+
+.sejarah .space {
+  margin: 9vh;
+}
+
+#SejarahImg {
+  position: absolute;
+  top: -10em;
+  right: 1em;
+  content: "";
+  width: 220px;
+  height: 320px;
+  background-size: cover;
+}
+
+/* Maskot Content */
+
+.maskot .caption {
+  margin: 3em 0 0 0;
+  width: 90%;
+}
+
+.maskot-video {
+  margin: 3em 0 0 0;
+  content: "";
+  height: 240px;
+  width: 100%;
+  background-color: #000000;
+}
+.maskot .space {
+  margin: 9vh;
+}
+
+#MaskotImg {
+  content: "";
+  width: 240px;
+  height: 320px;
+  background-color: #ececec;
+}
+
+/* Piala */
+
+.piala .caption {
+  margin: 3em 0 0 0;
+  width: 90%;
+}
+
+.piala-video {
+  margin: 3em 0 0 0;
+  content: "";
+  height: 240px;
+  width: 100%;
+  background-color: #000000;
+}
+.piala .space {
+  margin: 9vh;
+}
+
+#PialaImg {
+  content: "";
+  width: 240px;
+  height: 320px;
+  background-color: #ececec;
+}
+
+/* Dukungan Content */
+
+.dukungan .caption {
+  margin: 3em 0 0 0;
+  width: 95%;
+}
+
+.dukungan .space {
+  margin: 9vh;
+}
+
+#DukunganImg {
+  /* margin: 4em 0 0 0; */
+  content: "";
+  width: 240px;
+  height: 320px;
+  background-color: #ececec;
+}
+
+/* Hall Of Fame Content */
+
+.halloffame .caption {
+  margin: 8em 0 0 0;
+  width: 95%;
+}
+
+.halloffame .space {
+  margin: 9vh;
+}
+
+#HallImg {
+  position: absolute;
+  top: -16em;
+  right: 1em;
+  content: "";
+  width: 220px;
+  height: 320px;
+  background-color: #ececec;
+}
+
+.trophyToHall {
+  margin: 15em 0 15em 0;
+}
+
+/***
+ * 
+ * 
+ *  Desktop Version 
+ * 
+ * 
+ ***/
+
+/* Medium 1024 */
+@media (min-width: 992px) {
+  /* .responsive-screen {
+      display: none;
+    } */
+
+  /* Header */
+  .header {
+    margin: 10em 0 0 0;
+  }
+
+  .header .title {
+    font-size: 8vw;
+  }
+
+  .header .subtitle {
+    margin: 1em 0 0 0;
+    font-size: 2vw;
+    width: 40%;
+  }
+
+  .header .caption {
+    margin: 6em 0 10em 0;
+    font-size: 1.4vw;
+    width: 45%;
+  }
+
+  .caption {
+    font-size: 1.6vw;
+    line-height: 150%;
+  }
+
+  /* Content Spacing*/
+  .content-v {
+    margin: 30em 0 0 0;
+  }
+
+  .content-h {
+    margin: 15em 0 0 0;
+  }
+
+  /* Tujuan Content */
+
+  .tujuan h1 {
+    font-size: 4.5em;
+  }
+
+  .tujuan .caption {
+    margin: 10em 0 0 0;
+    width: 70%;
+  }
+
+  .tujuan .space {
+    margin: 9vh;
+  }
+
+  #TujuanImg {
+    position: absolute;
+    top: -16em;
+    right: 12vw;
+    content: "";
+    width: 25vw;
+    height: 25em;
+    background-color: #ececec;
+    /* background-image:  */
+  }
+
+  /* Sejarah Content */
+
+  .sejarah h1 {
+    font-size: 4.5em;
+  }
+
+  .sejarah .caption {
+    margin: 10em 0 0 0;
+    width: 70%;
+  }
+
+  .sejarah .caption-sib {
+    margin: 5em 0 0 0;
+    width: 70%;
+  }
+
+  .sejarah .space {
+    margin: 9vh;
+  }
+
+  #SejarahImg {
+    position: absolute;
+    top: -18em;
+    right: 12vw;
+    content: "";
+    width: 25vw;
+    height: 25em;
+    background-color: #ececec;
+  }
+
+  /* Maskot Content */
+
+  .maskot h1 {
+    font-size: 3.5em;
+  }
+
+  .maskot .caption {
+    margin: 3em 0 0 0;
+    width: 70%;
+  }
+
+  .maskot-video {
+    margin: 3em 0 0 0;
+    content: "";
+    height: 60vh;
+    width: 100%;
+  }
+
+  .maskot .space {
+    margin: 9vh;
+  }
+
+  #MaskotImg {
+    content: "";
+    width: 240px;
+    height: 320px;
+    background-color: #ececec;
+  }
+
+  /* Dukungan Content */
+
+  .dukungan h1 {
+    font-size: 3.5em;
+  }
+
+  .dukungan .caption {
+    margin: 3em 0 0 0;
+    width: 85%;
+  }
+
+  .dukungan .space {
+    margin: 9vh;
+  }
+
+  #DukunganImg {
+    /* margin: 4em 0 0 0; */
+    content: "";
+    width: 240px;
+    height: 320px;
+    background-color: #ececec;
+  }
+
+  .piala h1 {
+    font-size: 3.5em;
+  }
+
+  .piala .caption {
+    margin-top: 4em;
+    width: 50%;
+  }
+
+  .piala .space {
+    margin: 9vh;
+  }
+
+  .piala-video {
+    margin: 3em 0 0 0;
+    content: "";
+    height: 60vh;
+    width: 100%;
+  }
+
+  #PialaImg {
+    margin-top: 14em;
+    margin-left: 16em;
+    content: "";
+    width: 240px;
+    height: 320px;
+    background-color: #ececec;
+  }
+
+  /* Hall Of Fame Content */
+
+  .halloffame h1 {
+    font-size: 3.5em;
+  }
+
+  .halloffame .caption {
+    margin: 8em 0 0 0;
+    width: 65%;
+  }
+
+  .halloffame .space {
+    margin: 9vh;
+  }
+
+  #HallImg {
+    position: absolute;
+    top: -25em;
+    right: 12vw;
+    content: "";
+    width: 25vw;
+    height: 25em;
+    background-color: #ececec;
+  }
+
+  .trophyToHall {
+    margin: 20em 0;
+  }
+
+  /* End Line of Desktop Version */
+}
+
+/* Large 1024 */
+@media (min-width: 1200px) {
+  /* .responsive-screen {
+        display: none;
+      } */
+
+  .offset-l-10 {
+    margin-left: 10em;
+  }
+
+  .offset-l-20 {
+    margin-left: 20em;
+  }
+
+  .offset-l-30 {
+    margin-left: 30em;
+  }
+
+  /* Header */
+  .header {
+    margin: 10em 0 0 0;
+  }
+
+  .header .title {
+    font-size: 8vw;
+  }
+
+  .header .subtitle {
+    margin: 1em 0 0 0;
+    font-size: 2vw;
+    width: 40%;
+  }
+
+  .header .caption {
+    margin: 6em 0 10em 0;
+    font-size: 1.1vw;
+    width: 40%;
+  }
+
+  .caption {
+    font-size: 0.9vw;
+    line-height: 150%;
+  }
+
+  /* Content Spacing*/
+  .content-v {
+    margin: 30em 0 0 0;
+  }
+
+  .content-h {
+    margin: 15em 0 0 0;
+  }
+
+  /* Tujuan Content */
+
+  .tujuan h1 {
+    font-size: 4.5em;
+  }
+
+  .tujuan .caption {
+    margin-top: 14em;
+    width: 30%;
+  }
+
+  .tujuan .offset-l-10 {
+    margin-left: 10em;
+  }
+
+  .tujuan .offset-l-20 {
+    margin-left: 20em;
+  }
+
+  .tujuan .offset-l-30 {
+    margin-left: 30em;
+  }
+
+  .tujuan .space {
+    margin: 9vh;
+  }
+
+  #TujuanImg {
+    position: absolute;
+    top: -16em;
+    right: 12vw;
+    content: "";
+    width: 32vw;
+    height: 28em;
+    background-color: #ececec;
+  }
+
+  /* Sejarah Content */
+
+  .sejarah h1 {
+    font-size: 4.5em;
+  }
+
+  .sejarah .caption {
+    margin-top: 10em;
+    width: 30%;
+  }
+
+  .sejarah .caption-sib {
+    margin: 5em 0 0 0;
+    width: 30%;
+  }
+
+  .sejarah .offset-l-10 {
+    margin-left: 10em;
+  }
+
+  .sejarah .offset-l-20 {
+    margin-left: 20em;
+  }
+
+  .sejarah .offset-l-30 {
+    margin-left: 30em;
+  }
+
+  .sejarah .space {
+    margin: 9vh;
+  }
+
+  #SejarahImg {
+    position: absolute;
+    top: -18em;
+    right: 10vw;
+    content: "";
+    width: 35vw;
+    height: 28em;
+    background-color: #ececec;
+  }
+
+  /* Maskot Content */
+
+  .maskot h1 {
+    font-size: 3.5em;
+  }
+
+  .maskot .caption {
+    margin-top: 3em;
+    width: 40% !important;
+  }
+
+  .maskot .offset-l-10 {
+    margin-left: 10em;
+  }
+
+  .maskot .offset-l-20 {
+    margin-left: 20em;
+  }
+
+  .maskot .offset-l-30 {
+    margin-left: 30em;
+  }
+
+  .maskot-video {
+    margin: 3em 0 0 0;
+    content: "";
+    height: 60vh;
+    width: 100%;
+  }
+
+  .maskot .space {
+    margin: 9vh;
+  }
+
+  #MaskotImg {
+    content: "";
+    width: 240px;
+    height: 320px;
+    margin-left: 25em;
+    background-color: #ececec;
+  }
+
+  /* Dukungan Content */
+
+  .dukungan h1 {
+    font-size: 3.5em;
+  }
+
+  .dukungan .caption {
+    margin-top: 4em;
+    width: 40%;
+  }
+
+  .dukungan .offset-l-10 {
+    margin-left: 10em;
+  }
+
+  .dukungan .offset-l-20 {
+    margin-left: 20em;
+  }
+
+  .dukungan .offset-l-30 {
+    margin-left: 30em;
+  }
+
+  .dukungan .offset-l-40 {
+    margin-left: 40em;
+  }
+  
+  .dukungan .spaceimg {
+    margin: 6vh 0;
+  }
+
+  #DukunganImg {
+    content: "";
+    width: 24vw;
+    height: 45vh;
+    background-color: #ececec;
+  }
+
+  /* Piala Content */
+
+  .piala h1 {
+    font-size: 3.5em;
+  }
+
+  .piala .caption {
+    margin-top: 4em;
+    width: 40%;
+  }
+  
+  .piala .offset-l-10 {
+    margin-left: 10em;
+  }  
+
+  .piala .offset-l-20 {
+    margin-left: 20em;
+  }
+
+  .piala .offset-l-30 {
+    margin-left: 30em;
+  }
+
+  .piala .space {
+    margin: 9vh;
+  }
+
+  .piala-video {
+    margin: 3em 0 0 0;
+    content: "";
+    height: 60vh;
+    width: 100%;
+  }
+
+  #PialaImg {
+    margin-top: 14em;
+    margin-left: 16em;
+    content: "";
+    width: 240px;
+    height: 320px;
+    background-color: #ececec;
+  }
+
+  /* Hall Of Fame Content */
+
+  .halloffame h1 {
+    font-size: 3.5em;
+  }
+
+  .halloffame .caption {
+    margin-top: 8em;
+    width: 35%;
+  }
+
+  .halloffame .offset-l-30 {
+    margin-left: 30em;
+  }
+
+  .halloffame .space {
+    margin: 9vh;
+  }
+
+  #HallImg {
+    position: absolute;
+    top: -25em;
+    right: 12vw;
+    content: "";
+    width: 37vw;
+    height: 27em;
+    background-color: #ececec;
+  }
+
+  .trophyToHall {
+    margin: 20em 0;
+  }
+
+  /* End Line of Desktop Version */
+}

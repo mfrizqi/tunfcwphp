@@ -1,0 +1,146 @@
+<!-- Responsive Screen -->
+<div class="responsive-screen">
+        <div class="container-fluid">
+            <!-- Header Section -->
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-8">
+                    <div class="header">
+                        <h1 class="extrabold title">TUNFC</h1>
+                        <p class="subtitle medium">Telkom University National Futsal Championship</p>
+                        <div class="caption medium">
+                            <p>Telkom University National Futsal Championship (TUNFC) merupakan kompetisi futsal tingkat
+                                nasional antar perguruan tinggi yang diselenggarakan oleh UKM Bola Telkom University.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Section -->
+            <!-- Tujuan Content-->
+            <div class="row justify-content-center content-v">
+                <div class="col-10 col-md-8 tujuan">
+                    <h1 class="extrabold r90 ">Tujuan</h1>
+                    <div id="TujuanImg"></div>
+                    <div class="caption regular offset-l-10">
+                        <p>Tujuan utama diselenggarakannya Telkom University National Futsal Championship (TUNFC) untuk
+                            menjalin dan memperkuat tali persaudaraan antar mahasiswa perguruan tinggi di Indonesia.</p>
+                        <div class="space"></div>
+                    </div>
+                    <div class="caption regular offset-l-30">
+                        <p>TUNFC juga memberikan pengalaman kepada mahasiswa untuk bersaing secara kompetitif di bidang
+                            futsal dan membantu melahirkan atlet-atlet futsal berkualitas yang nantinya diharapkan mampu
+                            mengharumkan nama Indonesia</p>
+                    </div>
+                </div>
+                <div class="col-12 content-v"></div>
+                <!--  Sejarah Content -->
+                <div class="col-10 col-md-8 sejarah">
+                    <h1 class="extrabold r90">Sejarah</h1>
+                    <div id="SejarahImg"></div>
+                    <div class="caption regular offset-l-20">
+                        <p>TUNFC pertama kali diselenggarakan pada tahun 2016 yang bertempat di Sigma Sport & Community
+                            Center – Progresif Football & Futsal Bandung. </p>
+                    </div>
+                    <div class="caption regular offset-l-30">
+                        <div class="space"></div>
+
+                        <p>Terbentuknya TUNFC di latar belakangi oleh UKM Bola Telkom University yang tak ingin selalu
+                            menjadi peserta kompetisi-kompetisi futsal tingkat nasional tetapi juga ingin menjadi
+                            penyelenggara kompetisi futsal tingkat nasional</p>
+
+                    </div>
+                </div>
+                <!-- Maskot Content -->
+                <div class="col-12 content-h"></div>
+                <div class="col-10 col-md-8 maskot">
+                    <h1 class="extrabold text-right">Maskot &<br /> Jingle</h1>
+                    <div class="maskot-video">
+                        <h2 class="text-center">video</h2>
+                    </div>
+
+                    <div class="space"></div>
+                    <div class="caption regular">
+                        <p>Tujuan utama diselenggarakannya Telkom University National Futsal Championship (TUNFC) untuk
+                            menjalin dan memperkuat tali persaudaraan antar mahasiswa perguruan tinggi di Indonesia.</p>
+                    </div>
+
+                    <div class="space"></div>
+                    <div id="MaskotImg"></div>
+
+                    <div class="space"></div>
+                    <div class="caption regular offset-l-30">
+                        <p>TUNFC juga memberikan pengalaman kepada mahasiswa untuk bersaing secara kompetitif di bidang
+                            futsal dan membantu melahirkan atlet-atlet futsal berkualitas yang nantinya diharapkan mampu
+                            mengharumkan nama Indonesia</p>
+                    </div>
+                </div>
+
+                <!-- Spacer -->
+                <div class="col-12 content-h"></div>
+                <!-- Dukungan Content -->
+                <div class="col-10 col-md-8 dukungan">
+                    <h1 class="extrabold">Dukungan<br />Pemain Pro</h1>
+                    <div id="DukunganImg"></div>
+                    <div class="space"></div>
+                    <div class="caption regular offset-l-20">
+                        <p>Telkom University National Futsal Championship (TUNFC) selalu menghadirkan inovasi tak
+                            terduga tiap tahunnya. Terbukti pada tahun 2018, TUNFC berhasil menjalin kerjasama dengan
+                            Syahidan Lubis. Bambang Bayu Saptaji, Andri Kustiawan dan Bonsu Hasibuan kemudian berhasil
+                            digaet pada TUNFC 2019</p>
+                    </div>
+                </div>
+
+                <!-- Spacer -->
+                <div class="col-12 content-h"></div>
+                <!-- Piala Content -->
+                <div class="col-10 col-md-8 piala">
+                    <h1 class="extrabold text-right">Piala Bergilir<br />TUNFC</h1>
+                    <div class="piala-video">
+                        <h2 class="text-center">video</h2>
+                    </div>
+                    <div class="space"></div>
+                    <div>
+                        <div id="PialaImg"></div>
+                    </div>
+                    <div class="space"></div>
+                    <div class="caption regular offset-l-20">
+                        <p>TUNFC memiliki piala bergilir yang sangat bergengsi. Tidak puas dengan capaian di tahun-tahun
+                            sebelumnya, di tahun 2018 TUNFC menyediakan piala bergilir yang nantinya dapat dibawa pulang
+                            oleh tim universitas yang berhasil menjadi juara pertama pada perhelatan TUNFC tiga kali
+                            berturut-turut</p>
+                    </div>
+                </div>
+
+                <!-- Spacer -->
+                <div class="col-12 trophyToHall"></div>
+                <!-- <div class="col-12 content-v"></div> -->
+
+                <!-- Hall Content -->
+                <div class="col-10 col-md-8 halloffame">
+                    <h1 class="extrabold r90">Hall Of Fame</h1>
+                    <div id="HallImg"></div>
+                    <div class="caption regular offset-l-30">
+                        <p>Setiap penyelenggaraannya TUNFC selalu menghasilkan juara baru. Terbukti sejak awal berdiri
+                            hingga sekarang, belum pernah ada perguruan tinggi yang memenangkan TUNFC secara berturut
+                        </p>
+
+                        <div class="space"></div>
+                    </div>
+                </div>
+
+                <!-- Spacer -->
+                <div class="col-12 content-h"></div>
+                <!-- Piala Content -->
+                <div class="col-10 col-md-8 maskot">
+                    <h1 class="extrabold">After Movie<br />TUNFC</h1>
+                    <div class="maskot-video">
+                        <h2 class="text-center">video</h2>
+                    </div>
+                    <div class="space"></div>
+                </div>
+                <div class="col-12 content-h"></div>
+
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,224 @@
+/* Header */
+.header {
+  margin: 10em 0 0 0;
+}
+
+.title {
+  font-size: 3.5em;
+}
+
+.subtitle {
+  font-size: 1.3em;
+  width: 95%;
+}
+
+.header .caption {
+  margin: 7em 0 0 0;
+  font-size: 1em;
+  width: 90%;
+}
+
+.caption {
+  font-size: 0.9em;
+  line-height: 150%;
+}
+
+/* Content */
+.content-v {
+  margin: 20em 0 0 0;
+}
+
+.content-h {
+  margin: 10em 0 0 0;
+}
+
+.r90 {
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+}
+/* Tujuan Content */
+
+.tujuan .caption {
+  margin: 15em 0 0 0;
+  width: 90%;
+}
+
+.tujuan .space {
+  margin: 9vh;
+}
+
+#TujuanImg {
+  position: absolute;
+  top: -9em;
+  right: 1em;
+  content: "";
+  width: 240px;
+  height: 320px;
+  background-color: #ececec;
+}
+
+/* Sejarah Content */
+
+.sejarah .caption {
+  margin: 15em 0 0 0;
+  width: 95%;
+}
+
+.sejarah .space {
+  margin: 9vh;
+}
+
+#SejarahImg {
+  position: absolute;
+  top: -10em;
+  right: 1em;
+  content: "";
+  width: 240px;
+  height: 320px;
+  background-color: #ececec;
+}
+
+/* Maskot Content */
+
+.maskot .caption {
+  margin: 3em 0 0 0;
+  width: 90%;
+}
+
+.maskot-video {
+  margin: 3em 0 0 0;
+  content: "";
+  height: 240px;
+  width: 100%;
+  background-color: #ececec;
+}
+.maskot .space {
+  margin: 9vh;
+}
+
+#MaskotImg {
+  content: "";
+  width: 240px;
+  height: 320px;
+  background-color: #ececec;
+}
+
+/* Dukungan Content */
+
+.dukungan .caption {
+  margin: 3em 0 0 0;
+  width: 95%;
+}
+
+.dukungan .space {
+  margin: 9vh;
+}
+
+#DukunganImg {
+  margin: 4em 0 0 0;
+  content: "";
+  width: 240px;
+  height: 320px;
+  background-color: #ececec;
+}
+
+/* Hall Of Fame Content */
+
+.halloffame .caption {
+  margin: 8em 0 0 0;
+  width: 95%;
+}
+
+.halloffame .space {
+  margin: 9vh;
+}
+
+#HallImg {
+  position: absolute;
+  top: -16em;
+  right: 1em;
+  content: "";
+  width: 240px;
+  height: 320px;
+  background-color: #ececec;
+}
+
+.trophyToHall {
+  margin: 8em 0 8em 0;
+}
+
+/* Menu when viewport on mobile device */
+.menublock {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1a1a1a;
+}
+
+.menutitle {
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.burgericon {
+  position: relative;
+  height: auto;
+  width: auto;
+  top: -8px;
+}
+
+.closebtn {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 2em 0 0 0;
+}
+
+.closeMe {
+  position: absolute;
+  right: 0px;
+  background-image: url("assets/cancel.svg");
+  height: 40px;
+  width: 40px;
+}
+
+#rectangle1 {
+  height: 4px;
+  width: 32px;
+  background-color: #1a1a1a;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+#rectangle2 {
+  height: 4px;
+  width: 24px;
+  background-color: #1a1a1a;
+  position: absolute;
+  right: 0px;
+  top: 8px;
+}
+
+#rectangle3 {
+  height: 4px;
+  width: 16px;
+  background-color: #1a1a1a;
+  position: absolute;
+  right: 0px;
+  top: 16px;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.footer a {
+  color: white;
+}
+/* 
+@media (min-width: 576px) {
+  .mobile-screen {
+    display: none;
+  }
+} */
