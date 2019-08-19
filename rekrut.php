@@ -16,7 +16,7 @@
 
         <!-- Form Section -->
         <div class="row justify-content-center my-4">
-            <div class="col-10 col-md-5">
+            <div class="col-10 col-lg-5">
                 <form action="form.php" method="post" enctype="multipart/form-data">
                     <div class="form-group mb-4">
                         <label for="Nama" class="medium">Nama Lengkap</label>

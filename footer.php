@@ -12,9 +12,6 @@
                             <a class="nav-link semibold" href="index.php">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link semibold" href="#">Artikel</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link semibold" href="rekrut.php">Rekrutmen</a>
                         </li>
                     </ul>
