@@ -1,52 +1,3 @@
-#TujuanImg{
-  background-image: url("../assets/tujuan.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#SejarahImg{
-  background-image: url("../assets/sejarah.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#MaskotImg{
-  background-image: url("../assets/tujuan.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.sup1{
-  background-image: url("../assets/khalid-p.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.sup2{
-  background-image: url("../assets/said-p.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#PialaImg{
-  background-image: url("../assets/tujuan.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#HallImg{
-  background-image: url("../assets/hof.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 /* Mobile Version */
 
 /* Header */
@@ -115,12 +66,12 @@
 /* Sejarah Content */
 
 .sejarah .caption {
-  margin: 15em 0 0 0;
+  margin-top: 15em;
   width: 95%;
 }
 
 .sejarah .caption-sib {
-  margin: 5em 0 0 0;
+  margin-top: 5em;
   width: 95%;
 }
 
@@ -141,7 +92,7 @@
 /* Maskot Content */
 
 .maskot .caption {
-  margin: 3em 0 0 0;
+  margin-top: 3em;
   width: 90%;
 }
 
@@ -166,7 +117,7 @@
 /* Piala */
 
 .piala .caption {
-  margin: 3em 0 0 0;
+  margin-top: 3em;
   width: 90%;
 }
 
@@ -191,7 +142,7 @@
 /* Dukungan Content */
 
 .dukungan .caption {
-  margin: 3em 0 0 0;
+  margin-top: 3em;
   width: 95%;
 }
 
@@ -210,7 +161,7 @@
 /* Hall Of Fame Content */
 
 .halloffame .caption {
-  margin: 8em 0 0 0;
+  margin-top: 8em;
   width: 95%;
 }
 
@@ -240,11 +191,24 @@
  * 
  ***/
 
-/* Medium 1024 */
+/* Medium 992 */
 @media (min-width: 992px) {
-  /* .responsive-screen {
-      display: none;
-    } */
+ 
+  .offset-l-10 {
+    margin-left: 10vw;
+  }
+
+  .offset-l-20 {
+    margin-left: 20vw;
+  }
+
+  .offset-l-30 {
+    margin-left: 30vw;
+  }
+
+  .offset-l-40 {
+    margin-left: 40vw;
+  }
 
   /* Header */
   .header {
@@ -264,11 +228,11 @@
   .header .caption {
     margin: 6em 0 10em 0;
     font-size: 1.4vw;
-    width: 45%;
+    width: 59%;
   }
 
-  .caption {
-    font-size: 1.6vw;
+  .caption .caption-sib {
+    font-size: 1.2vw;
     line-height: 150%;
   }
 
@@ -288,8 +252,8 @@
   }
 
   .tujuan .caption {
-    margin: 10em 0 0 0;
-    width: 70%;
+    margin-top: 10em;
+    width: 50%;
   }
 
   .tujuan .space {
@@ -314,13 +278,13 @@
   }
 
   .sejarah .caption {
-    margin: 10em 0 0 0;
-    width: 70%;
+    margin-top: 10em;
+    width: 47%;
   }
 
   .sejarah .caption-sib {
-    margin: 5em 0 0 0;
-    width: 70%;
+    margin-top: 5em;
+    width: 55%;
   }
 
   .sejarah .space {
@@ -344,12 +308,12 @@
   }
 
   .maskot .caption {
-    margin: 3em 0 0 0;
-    width: 70%;
+    margin-top: 8em;
+    width: 85%;
   }
 
   .maskot-video {
-    margin: 3em 0 0 0;
+    margin-top: 4em;
     content: "";
     height: 60vh;
     width: 100%;
@@ -373,8 +337,8 @@
   }
 
   .dukungan .caption {
-    margin: 3em 0 0 0;
-    width: 85%;
+    margin-top: 3em;
+    width: 70%;
   }
 
   .dukungan .space {
@@ -382,7 +346,6 @@
   }
 
   #DukunganImg {
-    /* margin: 4em 0 0 0; */
     content: "";
     width: 240px;
     height: 320px;
@@ -394,8 +357,8 @@
   }
 
   .piala .caption {
-    margin-top: 4em;
-    width: 50%;
+    margin-top: 5em;
+    width: 65%;
   }
 
   .piala .space {
@@ -403,7 +366,7 @@
   }
 
   .piala-video {
-    margin: 3em 0 0 0;
+    margin-top: 6em;
     content: "";
     height: 60vh;
     width: 100%;
@@ -425,8 +388,8 @@
   }
 
   .halloffame .caption {
-    margin: 8em 0 0 0;
-    width: 65%;
+    margin-top: 8em;
+    width: 55%;
   }
 
   .halloffame .space {
@@ -450,7 +413,7 @@
   /* End Line of Desktop Version */
 }
 
-/* Large 1024 */
+/* Large 1200 */
 @media (min-width: 1200px) {
   /* .responsive-screen {
         display: none;
@@ -739,4 +702,53 @@
   }
 
   /* End Line of Desktop Version */
+}
+
+#TujuanImg{
+  background-image: url("../assets/tujuan.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#SejarahImg{
+  background-image: url("../assets/sejarah.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#MaskotImg{
+  background-image: url("../assets/tujuan.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sup1{
+  background-image: url("../assets/khalid-p.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sup2{
+  background-image: url("../assets/said-p.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#PialaImg{
+  background-image: url("../assets/tujuan.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#HallImg{
+  background-image: url("../assets/hof.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
