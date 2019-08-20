@@ -252,18 +252,18 @@
   }
 
   .header .title {
-    font-size: 10vw;
+    font-size: 8vw;
   }
 
   .header .subtitle {
     margin: 1em 0 0 0;
-    font-size: 2.1vw;
+    font-size: 2vw;
     width: 40%;
   }
 
   .header .caption {
     margin: 6em 0 10em 0;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     width: 45%;
   }
 
@@ -307,22 +307,6 @@
     /* background-image:  */
   }
 
-  .tujuan .offset-m-1 {
-    margin-left: 5em;
-  }
-
-  .tujuan .offset-m-2 {
-    margin-left: 10em;
-  }
-
-  .tujuan .offset-m-3 {
-    margin-left: 15em;
-  }
-
-  .tujuan .offset-m-4 {
-    margin-left: 20em;
-  }
-
   /* Sejarah Content */
 
   .sejarah h1 {
@@ -351,22 +335,6 @@
     width: 25vw;
     height: 25em;
     background-color: #ececec;
-  }
-
-  .sejarah .offset-m-1 {
-    margin-left: 5em;
-  }
-
-  .sejarah .offset-m-2 {
-    margin-left: 10em;
-  }
-
-  .sejarah .offset-m-3 {
-    margin-left: 15em;
-  }
-
-  .sejarah .offset-m-4 {
-    margin-left: 20em;
   }
 
   /* Maskot Content */
@@ -398,22 +366,6 @@
     background-color: #ececec;
   }
 
-  .maskot .offset-m-1 {
-    margin-left: 5em;
-  }
-
-  .maskot .offset-m-2 {
-    margin-left: 10em;
-  }
-
-  .maskot .offset-m-3 {
-    margin-left: 15em;
-  }
-
-  .maskot .offset-m-4 {
-    margin-left: 20em;
-  }
-
   /* Dukungan Content */
 
   .dukungan h1 {
@@ -435,22 +387,6 @@
     width: 240px;
     height: 320px;
     background-color: #ececec;
-  }
-
-  .dukungan .offset-m-1 {
-    margin-left: 5em;
-  }
-
-  .dukungan .offset-m-2 {
-    margin-left: 10em;
-  }
-
-  .dukungan .offset-m-3 {
-    margin-left: 15em;
-  }
-
-  .dukungan .offset-m-4 {
-    margin-left: 20em;
   }
 
   .piala h1 {
